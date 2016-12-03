@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ReferReward</title>
+    <%= csrf_meta_tags %>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <div class="logo"><%= image_tag "logo.png" %></div>
+      </div>
+    </header>
+
+    <div class="hero">
+
+    </div>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="col-md-3">
+          Contact us: Want to get in touch about Refer Reward, email us here.
+          info@referreward.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

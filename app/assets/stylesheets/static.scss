@@ -1,0 +1,32 @@
+// Place all the styles related to the static controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.hero {
+    width: 100%;
+    height: 400px;
+    background: url(https://c.stocksy.com/a/Mib300/z0/859962.jpg) center;
+    background-size: cover;
+}
+
+.header {
+  border-bottom: 2px solid #eee;
+
+  .logo img {
+    padding: 12px 0;
+    width: 300px;
+  }
+}
+
+.footer {
+    width: 100%;
+    padding: 24px 0;
+    background: #22155F;
+
+    color: white;
+    color: rgba(255,255,255,0.6);
+}
+
+.infographic {
+    img { width: 100%; }
+}
