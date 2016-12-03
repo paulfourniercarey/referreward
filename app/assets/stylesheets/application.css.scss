@@ -14,8 +14,7 @@
  *= require_self
  */
 
-$purple: #22155F;
-$blue: #23A8CD;
+@import "colors.scss";
 
 body {
     font-size: 16px;
@@ -30,6 +29,6 @@ h1, h2, h3 {
 }
 
 section {
-    padding: 24px 0;
+    padding: 48px 0;
     overflow: hidden;
 }

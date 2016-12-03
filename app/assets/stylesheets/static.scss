@@ -2,11 +2,47 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "colors.scss";
+
+.central { text-align: center; }
+
+.button {
+  background: $blue;
+  padding: 16px 28px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border: 2px solid $blue;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover { color: white; text-decoration: none; }
+}
+
 .hero {
     width: 100%;
-    height: 400px;
-    background: url(https://c.stocksy.com/a/Mib300/z0/859962.jpg) center;
+    height: 440px;
+    background: url('http://habita.com.tr/content/1-home/sitting-meeting.jpg') center;
     background-size: cover;
+    position: relative;
+    text-align: center;
+
+    h1 { color: white; font-size: 40px; margin-bottom: 36px; }
+
+    .overlay {
+      display: table;
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      text-align: center;
+      background: rgba(6, 3, 12, .5);
+      height: 100%;
+
+      .inner {
+         vertical-align: middle; display: table-cell;
+      }
+    }
+
+    .action { display: inline-block; padding: 6px 12px; }
 }
 
 .header {
@@ -14,17 +50,13 @@
 
   .logo img {
     padding: 12px 0;
-    width: 300px;
+    width: 260px;
   }
 }
 
 .footer {
     width: 100%;
     padding: 24px 0;
-    background: #22155F;
-
-    color: white;
-    color: rgba(255,255,255,0.6);
 }
 
 .infographic {
