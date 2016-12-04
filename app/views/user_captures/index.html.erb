@@ -1,0 +1,22 @@
+<div class="container">
+
+<section>
+
+<table class="table striped">
+  <tr>
+    <th>Email Address</th>
+    <th>Industry</th>
+    <th>Created</th>
+  </tr>
+  <% @captures.each do |capture| %>
+    <tr>
+      <td><%= capture.email %></td>
+      <td><%= capture.industry %></td>
+      <td><%= time_ago_in_words capture.created_at %>
+    </tr>
+    <% end %>
+</table>
+
+</section>
+
+</div>

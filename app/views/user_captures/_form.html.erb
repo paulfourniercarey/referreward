@@ -1,0 +1,22 @@
+<% if @industries %>
+
+<%= form_for(user_capture) do |f| %>
+  <p>Enter your email and industry to register for early access. We'll let you know as soon as we launch!<p>
+
+  <div class="field">
+    <%= f.label :email %>
+    <%= f.email_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :industry %>
+    <div class="select">
+      <%= f.select :industry, @industries %>
+    </div>
+  </div>
+
+  <div class="actions">
+    <%= f.submit 'Submit', class: 'btn btn-primary' %>
+  </div>
+<% end %>
+
+<% end %>
