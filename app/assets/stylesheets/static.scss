@@ -26,19 +26,19 @@
 }
 
 .hero {
-    width:
-    100%;
+    width: 100%;
+    overflow: hidden;
     height: 560px;
-    background: #f3f2f0 url(http://s3.amazonaws.com/blog.invisionapp.com/uploads/2016/03/pixar-hero.jpg?ver=1) center;
-    background: url(http://lestudio-rouen.com/img/coworking-studio-cover-4.jpg) center;
+    background: #FAFAFA image-url("bg.jpg") center;
     background-size: cover;
     position: relative;
+    color: #AAA;
 
     h1 { font-size: 40px; color: white; }
     h2 { font-size: 24px; color: #ccc; margin-bottom: 48px; }
 
     .overlay {
-      background: rgba(0,0,0,.2);
+      background: rgba(0,0,0,.5);
       width: 100%;
       position: absolute;
       height: 100%;
@@ -52,6 +52,12 @@
     }
 
     .action { display: inline-block; padding: 6px 12px; }
+}
+
+@media (max-width: 1024px) {
+    .hero { height: 700px; }
+
+    .how-it-works { display: none; }
 }
 
 .header {

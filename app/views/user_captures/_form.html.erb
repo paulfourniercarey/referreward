@@ -1,7 +1,7 @@
 <% if @industries %>
 
 <%= form_for(user_capture) do |f| %>
-  <p>Enter your email and industry to register for early access. We'll let you know as soon as we launch!<p>
+  <p><strong>Enter your email and industry to register for early access. We'll let you know as soon as we launch!</strong><p>
 
   <div class="field">
     <%= f.label :email %>
@@ -15,7 +15,7 @@
   </div>
 
   <div class="actions">
-    <%= f.submit 'Submit', class: 'btn btn-primary' %>
+    <%= f.submit 'Register for early access', class: 'btn btn-primary button' %>
   </div>
 <% end %>
 

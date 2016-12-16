@@ -1,11 +1,12 @@
-input[type=text], textarea, input[type=password], input[type=email] {
+select, input[type=text], textarea, input[type=password], input[type=email] {
   width: 100%;
   border: 2px solid #eee;
   padding: 6px;
+  color: #555;
 }
 
 .field, .actions {
     padding: 12px 0;
 }
 
-.select { margin: 6px 0; }
+select { margin: 6px 0; height: 42px }

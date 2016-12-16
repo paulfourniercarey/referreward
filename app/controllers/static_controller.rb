@@ -1,6 +1,7 @@
 class StaticController < ApplicationController
 
   def index
+    @user_capture = UserCapture.new
     @industries = [
       "Accountancy, banking and finance",
       "Business, consulting and management",
