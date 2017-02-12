@@ -30,4 +30,7 @@ class StaticController < ApplicationController
       "Other"
     ]
   end
+
+  def privacy
+  end
 end

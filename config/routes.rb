@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   devise_for :users
 
   get 'static/index'
+  get 'privacy', to: 'static#privacy'
 
   root 'static#index'
 end
