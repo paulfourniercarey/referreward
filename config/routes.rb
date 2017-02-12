@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get 'static/index'
   get 'privacy', to: 'static#privacy'
+  get 'defaultSite', to: 'static#index'
 
   root 'static#index'
 end
