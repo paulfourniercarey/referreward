@@ -28,8 +28,8 @@
 .hero {
     width: 100%;
     overflow: hidden;
-    height: 560px;
-    background: #FAFAFA image-url("bg.jpg") center;
+    height: 600px;
+    background: #FAFAFA image-url("hero2.jpg") center;
     background-size: cover;
     position: relative;
     color: #AAA;
@@ -38,7 +38,7 @@
     h2 { font-size: 24px; color: #ccc; margin-bottom: 48px; }
 
     .overlay {
-      background: rgba(0,0,0,.5);
+      background: rgba(0,0,0,.65);
       width: 100%;
       position: absolute;
       height: 100%;
