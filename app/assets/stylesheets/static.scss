@@ -37,19 +37,13 @@
     h1 { font-size: 40px; color: white; }
     h2 { font-size: 24px; color: #ccc; margin-bottom: 48px; }
 
-    .overlay {
-      background: rgba(0,0,0,.65);
-      width: 100%;
-      position: absolute;
-      height: 100%;
-      display: table;
-
-      .inner {
+    
+    .inner {
         padding: 90px 0;
         display: table-cell;
         vertical-align: middle;
-      }
     }
+    
 
     .action { display: inline-block; padding: 6px 12px; }
 }
