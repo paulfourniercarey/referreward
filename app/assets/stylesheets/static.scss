@@ -60,14 +60,14 @@
 .jobs{
   background-color:rgba(0,0,0,0.7);
   box-shadow:0 3px 5px #000;
-  
-  h3{
+}  
+.jobs h3{
     color:#f0f0f0;
-  }
-  &.oddone{
-    background-color:rgba(0,0,0,0.5);
-  }
 }
+.oddone{
+    background-color:rgba(0,0,0,0.5);
+}
+
 @media (max-width: 1024px) {
     .hero { height: 700px; }
 }
