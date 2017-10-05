@@ -28,7 +28,7 @@
 .hero {
     width: 100%;
     overflow: hidden;
-    min-height: 600px;
+    height: 600px;
     background: #FAFAFA image-url("64.jpg") center;
     background-size: cover;
     position: relative;
@@ -56,6 +56,7 @@
 .adverts{
   padding-bottom:4em;
   margin-bottom:4em;
+  height:auto;
 }
 .jobs{
   background-color:rgba(0,0,0,0.7);
