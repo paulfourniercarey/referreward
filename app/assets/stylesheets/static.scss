@@ -57,9 +57,10 @@
   height:auto;
 }
 .jobs{
-  background-color:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,1.0);
   box-shadow:0 0px 2px #000;
-}  
+}
+.jobs iframe{}
 .jobs h3{
     color:#f0f0f0;
 }
